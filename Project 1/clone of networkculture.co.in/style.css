@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* <--================NAVBAR DESIGNING --================-->*/
+.nav-content{
+    border: 2px solid red;
+    height: 5.3rem;
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+.navbar{
+    width: 87%;
+    /* border: 2px solid blue; */
+    /* height: 5.1rem;   */
+}
+.nav-logo-content{
+    display: inline-block;
+    /* border: 2px solid blue; */
+}
+.nav-menu-content{
+    display: inline-block;
+    margin-top: 5px;
+    padding: 6px 2px;
+    margin: auto auto;
+    position: relative;
+    /* border: 2px solid blue; */
+}
+#logo-img{
+    height: 68px;
+    width: 197px;
+}
+.item{
+    display: inline-block;
+    margin: 0px 16px;
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.nav-a-tag{
+    text-decoration: none;
+    color: black;
+}
+.carousel-item > img{
+height: 80%;
+width: 100%;
+background-size: conver;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+/* .nav-menu-content{
+    margin-left: 4rem;
+    width: 233px;
+    border: 2px solid yellow;
+} */
+/* Additional Common */
+.m-auto{
+    margin: auto;
+}
+.d-f{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* <--================NAVBAR DESIGNING --================-->*/
+/* #carouselExampleIndicators{
+    margin-top: 1.3rem;
+} */

@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(165deg, #93A5CF, #E4EFE9) no-repeat;
+    border: 1px solid rgb(138, 138, 255);
+    opacity: 1;
+}
+
+.navbar{
+    height: 4.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: rgba(201, 222, 255, 0.883);
+}
+/* Logo Desinging */
+.logo-name{
+    color: #5043bbe6;
+    font-family: cursive;
+    font-size: 13pt;
+    margin-left: -3.5rem;
+}
+.logo-name:hover{
+    color: #3121afdf;
+    font-size: 13pt;
+    cursor: pointer;
+}
+
+/* NavMenu Designing  */
+
+/* SearchBar Design */
+#srchbar{
+    border-radius: 7px;
+    padding: 7px 8px;
+    border: 2px solid #5043bbe6;
+    color: #5043bbe6;
+    font-family: cursive;
+outline: none;
+}
+
+.btnDesign{
+    border-radius: 7px;
+    padding: 7px 20px;
+    border: 2px solid #5043bbe6;
+    color: #5043bbe6;
+    font-family: cursive;
+    font-size: 14px;
+    font-weight: 900;
+    background-color: #0700ab0d;
+    transition: all .27s ease-in-out;
+   outline: none;
+   cursor: pointer;
+}
+.btnDesign:hover{
+    color: white;
+    background-color: #3d2bc2e6;
+    border: 2px solid rgb(57, 16, 153);
+}
+.btnDesign:active{
+    border: 2px solid #5043bbe6;
+    color: white;
+    background-color: #1700c3ec;
+}
+
+.the-content{
+    /* border: 2px solid blue; */
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.note-item{
+    /* border: 2px solid red; */
+    width: 90%;
+}
+.greet{
+    font-size: 2rem;
+    margin: 18px 3px;
+    font-family: system-ui;
+}
+#titleHead{
+    font-size: 25px;
+}
+
+.noteall{
+    border: 2px solid #5043bbe6;
+    height: 353px;
+    width: 96%;
+    border-radius: 8px;    
+}
+.m-x
+{
+    margin: 14px 16px;
+}
+
+.f-d{
+    font-family: 'Arimo', sans-serif;
+    word-spacing: -2px;
+    font-size: medium;
+    border-radius: 8px;
+}
+#addTitle{
+    width: 88%;
+    font-family: cursive;
+outline: none;
+}
+.p-xy{
+    padding: 6px 8px;
+}
+
+#notetext{
+    border:2px solid #5043bbe6;
+    border: none;
+    width: 90%;
+     height: 140px;
+outline: none;
+line-height: 1.6;
+    }
+.eachNote{
+    /* height: 25%;
+    width: 280px; */
+    border: 2px solid #5043bbe6;
+    display: inline-block;
+    text-align: justify;
+    border-radius: 15px;
+    letter-spacing: 1px;
+    margin-left: .5rem;
+    position: relative;
+    font-family: 'Arimo', sans-serif;
+}
+#notesCollection{
+    display: grid;
+grid-template-columns: repeat(3, auto);
+grid-gap: 0.36rem;
+position: relative;
+/* border: 2px solid red; */
+}
+
+
+/* Footer Decoration */
+.footer{
+    height: 6rem;
+    background-color: #909fff63;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+input:focus{
+    border: 2px solid #5043bbe6;
+}

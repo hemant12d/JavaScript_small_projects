@@ -1,0 +1,130 @@
+#logonav{
+    height: 70px;
+    width: 90px;
+}
+/* Logo design end here */
+.btn-design{
+    background-color:#374bd1;
+    color: #fff;
+padding: 9px 27px;
+font-family: 'Noto Sans JP', sans-serif;
+}
+.btn-design:hover{
+    background-color:#1c2b90;
+    transition: all .5s;
+    color: white;
+}
+.marign-right{
+    margin-right: 6rem;
+}
+.nav-item{
+    margin: 0rem 1.2rem;
+    color: blue;
+}
+.nav-item > .nav-link{
+    color: rgb(44, 44, 184);
+    font-weight: 700;
+    font-size: 17px;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.bgnavmenu{
+    background-color: rgb(255, 255, 255);
+    /* position: sticky;
+    top: 0px; */
+}
+/* Adding image to background top */
+.bgnavmenu::after{
+    content: "";
+    position: absolute;
+    top: 27px;
+    height: 900px;
+    width: 100%;
+    background:url('headerimage.jpg') no-repeat center center;
+    background-size: cover;
+    z-index: -1;
+    opacity: .03;
+} 
+.plr{
+    padding: 0px 30px;
+}
+.row input{
+    padding: 12px 6px;
+}
+
+
+.stream-option-design{
+    /* padding:8px 0px; */
+    border: 1px solid #ced4da;
+    width: 100%;
+    /* min-width: 200px; */
+}
+.stream-option{
+    border: 1px solid #ced4da;
+    padding:34px 2px;
+    height: 49px;
+    padding: 4px 5px;
+    width: 100%;
+/* text-align: center; */
+}
+.stream-content{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/* Placeholder color */
+::placeholder { 
+    color: rgb(4, 0, 255);
+    opacity: 1; 
+  }
+/* Placeholder color end here */
+/* Submit Button Designing */
+.submit-button{
+    padding:10px 9px;
+    border-radius: 8px;
+    border: 2px solid rgba(38, 38, 216, 0.925);
+    background: rgba(38, 38, 216, 0.925);
+    font-family: 'Open Sans', sans-serif;
+    color: rgb(236, 225, 225);
+    transition: all .5s;
+}
+.submit-button:hover{
+    color: white;
+    background: rgba(23, 23, 211, 0.925);
+}
+
+/* Submit Button Desing Ending */
+@media(max-width:992px){
+    .nav-item{
+        margin: 0rem 0rem;
+    }
+}
+@media(max-width:576px){
+    #pincode-hold{
+        margin-top: 2rem;
+    }
+    .select-field{
+        margin-top: 1rem;
+    }
+}
+
+/* Font Importaion by Google */
+
+.intro-line .intro{
+    color: rgb(0, 0, 0);
+    font-family: 'Roboto', sans-serif;
+    font-size: 60px;
+    font-weight: 900;
+}
+.intro-form{
+    font-family: 'Roboto', sans-serif;
+    color: rgb(39, 20, 212);
+    font-size:40px;
+    font-weight: 700;
+}
+
+.form-contact{
+    font-family: 'Open Sans', sans-serif;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experiment</title>
+    <style>
+   .eachNote{
+       /* height: fit-content; */
+       height: 163px;
+       border: 2px solid red;
+       /* width: fit-content; */
+       overflow: hidden;
+       /* overflow: auto; */
+    }
+    .btnDesign{
+        padding: 12px 14px;
+    }
+    .f-d{
+       padding: 14px 12px;
+
+   }
+   .addclass{
+       height: fit-content;
+   }
+    
+    </style>
+</head>
+<body>
+    <div class="eachNote m-x m-y f-d">
+        <button class="m-x m-y btnDesign" id="index2">Delete Note</button>
+        <h4 class="m-x m-y">Title</h4>
+        <p class="m-x m-y">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, dicta dolores quo vitae rem assumenda iusto vero nihil mollitia fuga ea, saepe eum, est aspernatur reiciendis? Sapiente maiores tempore sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem assumenda omnis delectus aut odio illo eos recusandae! Inventore vitae nisi eveniet aut sapiente eius numquam voluptatem fugiat, dignissimos repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque quos illo aliquam nemo esse consequuntur fugiat labore illum sapiente, ea et fuga. Quo dolorem sapiente eaque rem ex pariatur.
+        </p>
+    </div>
+    <div class="eachNote m-x m-y f-d">
+        <button class="m-x m-y btnDesign" id="index2">Delete Note</button>
+        <h4 class="m-x m-y">Title</h4>
+        <p class="m-x m-y">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, dicta dolores quo vitae rem assumenda iusto vero nihil mollitia fuga ea, saepe eum, est aspernatur reiciendis? Sapiente maiores tempore sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem assumenda omnis delectus aut odio illo eos recusandae! Inventore vitae nisi eveniet aut sapiente eius numquam voluptatem fugiat, dignissimos repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque quos illo aliquam nemo esse consequuntur fugiat labore illum sapiente, ea et fuga. Quo dolorem sapiente eaque rem ex pariatur.
+        </p>
+    </div>
+    <div class="eachNote m-x m-y f-d">
+        <button class="m-x m-y btnDesign" id="index3">Delete Note</button>
+        <h4 class="m-x m-y">Title</h4>
+        <p class="m-x m-y">
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, dicta dolores quo vitae rem assumenda iusto vero nihil mollitia fuga ea, saepe eum, est aspernatur reiciendis? Sapiente maiores tempore sit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae rem assumenda omnis delectus aut odio illo eos recusandae! Inventore vitae nisi eveniet aut sapiente eius numquam voluptatem fugiat, dignissimos repellat?Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque quos illo aliquam nemo esse consequuntur fugiat labore illum sapiente, ea et fuga. Quo dolorem sapiente eaque rem ex pariatur.
+        </p>
+    </div>
+    <script>
+        document.querySelectorAll('.eachNote').forEach(element => {
+            element.addEventListener('click', ()=>{
+element.classList.toggle('addclass');
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+
+.header-content-add-font{
+    font-size: 60px;
+    color: white;
+    font-weight: 900;
+}
+.header-content-add-font-in-a-tag{
+    font-size: 25px;
+    color: white;
+}
+#head-bg-img{
+    height: 300px;
+    width: 100%;
+}
+@media screen and (max-width:992px){
+    #head-bg-img{
+      display: none;
+    }
+}

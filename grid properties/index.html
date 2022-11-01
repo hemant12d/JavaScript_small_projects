@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Tutorial</title>
+</head>
+<style>
+    .container {
+        display: grid;
+        /* grid-template-columns: 3fr 3fr 3fr; */
+        grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+        grid-template-rows: repeat(auto-fit, minmax(170px, 1fr));
+        /* grid-template-rows: repeat(6, 170px); */
+        grid-column-gap: 2rem;
+        grid-row-gap: 4rem;
+        /* justify-content: center; */
+        /* grid-gap: 3rem; */
+    }
+
+    .box {
+        border: 2px solid red;
+        padding: 34px 34px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box:first-child {
+         /* grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 4;  */
+        /* Short hand of span box */
+        /* grid-column: 1/span 2;
+        grid-row: 1/span 2; */
+    }
+    
+   
+</style>
+
+<body>
+    <div class="container">
+        <li class="box" id="item-1">Box-1
+             nam.</li>
+        <li class="box" id="item-2">Box-2</li>
+        <li class="box" id="item-3">Box-3</li>
+        <li class="box" id="item-4">Box-4</li>
+        <li class="box" id="item-5">Box-5</li>
+        <li class="box" id="item-6">Box-6</li>
+        <li class="box" id="item-7">Box-7</li>
+        <li class="box" id="item-8">Box-8</li>
+        <li class="box" id="item-9">Box-9</li>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #details{
+        border: 2px solid red;
+        list-style: none;
+        padding: 10px 2px;
+    }
+    #details-summary{
+        text-align: center;
+        outline: none;
+        list-style: none;
+        cursor:pointer;
+        font-size: 16px;
+    }
+    #Img-from-unsplash{
+        height: 400px;
+        width: 100%;
+    }
+.toimage{
+    border: 2px solid lightblue;
+}
+#iframe{
+    width: 100%;
+    height: 100%;
+}
+#disk_c{
+height: 100px;
+width: 600px;
+padding: 17px 3px;
+}
+</style>
+<body>
+    <h1>Welcome to the dummy html file</h1>
+    <font size="+7">This is the font text can we use it instead of heading</font>
+    <h1>Computer Memory</h1>
+    <!-- <abbr title="World Wide Web">WWW</abbr> -> Abbreviation tag with description, expansion or description -->
+    <!-- <abbr>HTML</abbr> -> Abbreviation tag without description, expansion or description -->
+    <P>Computer has two types of memory known as <abbr title="Read Only Memory">RAM</abbr> and
+        <!-- Abbr tag represent word in the big font or  show abbreviation of any fullform on hover -->
+        <abbr>ROM</abbr>
+    </P>
+    <p class="acronym">
+        <!-- In the address we can print details about the owner of  website -->
+<address class="to-store-address">
+    Name: Hemant Soni
+    <br>
+    class: 1st Year
+    <br>
+    city: Bhilwara
+    <br>
+    website:
+    <br>
+    <a href="//faceboo.com" id="mysite">Visit our site</a>
+</address>
+    </p>
+    <p>
+        <em>I am the text that is writtne into italic form</em>
+        <strong>I am the that is here to show some special and important information</strong>
+    </p> 
+    <!-- Normal text print in the browser from left to right -->
+    <p>My name is in simple format
+        <span>Hemant Soni</span>
+    </p>
+    <p>
+        My name is bdo format
+        <!-- Bdo element print text from right to left text -->
+        <bdo dir="rtl">Hemant Soni</bdo>
+        <!-- Show the box in the middle with border -->
+        <dialog open>This is an open dialog window</dialog>
+    </p>
+    <p>
+        <!-- Blockquote works or print text with living some space from the begining -->
+        <blockquote>
+            <h1>This is the heading of blockquote</h1>
+            This is the text that is written inside the BlockQuote
+        </blockquote>
+    </p>
+    <button type="menu"><strong>Click Me</strong></button>
+    <p><cite>RAM :</cite>stands for Read Only Memory</p>
+
+    <!-- Dialogue Box work like a collapse content  -->
+    <details id="details">
+        <summary id="details-summary">Click Here to read</summary>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quidem perspiciatis dignissimos velit! Repellendus ab repudiandae tenetur quasi nisi ea dolor ipsa rem, deleniti provident quisquam libero sapiente sint? Commodi quaerat pariatur sint similique. Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international pavilions, award-winning fireworks and seasonal special events.</p>
+    </details>
+    <dialog open>This is an open dialog window 1</dialog>
+<DL>
+    <DT>Milk</DT>
+    <DD>Hot Cold Malai Milk</DD>
+</DL>
+<dl>
+    <dt>Kulfi</dt>
+    <dd>Pista Malai Kulfi</dd>
+    <dt>Sweet</dt>
+    <dd>Shudh Bangali Mava Mitai</dd>
+    <dt>Chocolate</dt>
+    <dd>Dairy milk silk bubble</dd>
+</dl>
+<!-- Image form source.unsplash.com inside the img tag-->
+<div class="toimage">
+    <!-- <img src="https://source.unsplash.com/WLUHO9A_xik"> -->
+    <iframe src="https://source.unsplash.com/WLUHO9A_xik" frameborder="0" id="iframe"></iframe>
+</div>
+<fieldset>
+    <legend>Legend Content</legend>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name">
+    <br>
+    <br>
+    <label for="lname">Last Name:</label>
+    <input type="text" name="name" id="lname">
+</fieldset>
+<meter id="disk_c" value="1" min="0" max="10">2 out of 10</meter><br>
+
+<select name="tocars" id="cars">
+    <optgroup label="Forgein Brand">
+<option value="lamborgini">Lamborgini</option>
+<option value="Mercedes">Mercedes</option>
+<option value="ferrari">Ferrari</option>
+    </optgroup>
+    <optgroup label="Indial Brand">
+<option value="landrover" selected>Land Rover</option>
+<option value="jaguar">Jaguar</option>
+    </optgroup>
+</select>
+<input type="range" id="a" value="4"> + 
+<input type="number" id="b" value="25"> = <output for="a b" name="x"></output>
+<form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+    <input type="range" id="a" value="50">
+    +<input type="number" id="b" value="25">
+    =<output name="x" for="a b"></output>
+</form>
+</body>
+</html>

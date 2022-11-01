@@ -1,0 +1,92 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background: linear-gradient(45deg, #f5c6aa, #d36969);
+    background-repeat: no-repeat;
+    /* background-color: #ffd2c1; */
+}
+/* Logo Designing */
+.logo-content{
+    background: rgb(255, 200, 180);
+    height: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 34px;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.m-auto{
+    /* border: 2px solid crimson; */
+    margin: auto;
+}
+.title{
+    font-family: 'RocknRoll One', sans-serif;
+}
+.content{
+    margin-top: .4rem;
+    width: 80%;
+    height: 290px;
+}
+.result{
+    width: 80%;
+    height: 200px;
+    line-height: 2.8;
+    font-size: larger;
+    font-family: 'RocknRoll One', sans-serif;
+}
+.m-xy{
+    margin: 13px 23px;
+}
+#addText{
+    width: 90%;
+    outline: none;
+    padding: 12px 12px;
+    line-height: 1.6;
+    font-size: 17px;
+}
+
+#resetBtn{
+margin-left: .5rem;
+}
+/* Button Designing */
+.btnDesign{
+    padding: 10px 26px;
+    border: 2px solid rgb(221, 74, 74);
+    color:rgb(221, 74, 74);
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    outline: none;
+    background-color: #fff5e9
+}
+.btnDesign:hover{
+    border: 2px solid rgb(221, 74, 74);
+    color:#f0f0f0;
+    background-color: rgb(221, 74, 74);
+}
+.btnDesign:active{
+    background-color: rgb(228, 55, 55);
+}
+
+/* Footer Designing */
+.footer{
+    height: 5rem;
+    background-color: rgb(240, 202, 164);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+}
+.showmsg{
+    height: 3rem;
+    background-color: rgb(166 169 255 / 88%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-family: 'Raleway', sans-serif;
+}

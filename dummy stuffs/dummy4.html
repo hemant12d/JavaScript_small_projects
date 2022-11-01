@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>This is just a dummy div for the experiment</title>
+</head>
+<body>
+    <div class="borderdummydiv">
+        <div class="cont" id="head">
+            <p class="para">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui, ab porro cumque quo deserunt quis
+                quisquam provident eius similique blanditiis, esse illum praesentium, in doloremque odio harum? Ducimus,
+                illo repellat.
+            </p>
+            <ul>
+                <li>HOme</li>
+                <li>ABout</li>
+                <li>COntact</li>
+                <li>SErvices</li>
+            </ul>
+            <div class="anotherdiv">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem facere aliquid soluta amet
+                voluptatem ipsa vero tempore quas repellat dolor, recusandae a, nihil similique consequuntur cumque,
+                dicta molestiae. A, nobis.
+            </div>
+            <div class="item">
+                I am the original item inside the div. Remember
+            </div>
+            <div class="item">
+                I am the another original item inside the div. Remember
+            </div>
+            <!-- This is just a comment that is inside the div -->
+        </div>
+    </div>
+    <div class="anotherdummydiv">
+        <div class="item">
+            Lorem, ipsum.
+        </div>
+    </div>
+    <script>
+        let element = document.getElementsByTagName('div');
+        Array.from(element).forEach(element => {
+            console.log(element);
+        });
+    </script>
+</body>
+
+</html>

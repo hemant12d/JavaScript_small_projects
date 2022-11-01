@@ -1,0 +1,203 @@
+
+:root{
+    --rounded-sim:'Jua', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+.nav-content{
+    /* border: 2px solid red; */
+    padding: 5px 0px;
+}
+/* #img-logo{
+    } */
+    .nav-logo-content > img{
+        height: 66px;
+        width: 185px;
+    }
+    .navbar{
+        width: 83%;
+    }
+    .nav-menu-content{
+/* border: 2px solid gray; */
+margin-bottom: 0px;
+    }
+    /* .nav-logo-content{
+border: 2px solid red;
+    }  */
+    ul.li-item-hold{
+        margin-bottom: 0px;
+    }
+    ul > li.item{
+        display: inline-block;
+        margin: 0rem 1.3rem;
+        padding: 0px;
+    }
+    ul > li a{
+        text-decoration: none;
+        font-family: var(--rounded-sim);
+        text-transform: uppercase;
+        padding: 0px 0px;
+    }
+    /* Some addtional common css classes for the all */
+    .m-auto{
+        margin: auto;
+    }
+    .d-f{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .d-f-c{
+        display: flex;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .font-color-white{
+        font-size: 85px;
+        color: #fff;
+    }
+    .font-color-yellow{
+        font-size: 60px;
+        color: #f9b603;
+    }
+    /* -m-v-wp --> stands for mission vision work-plan */
+
+    .company-m-v-wp
+{ 
+    /* padding: 0px 6px; */
+text-align:center;
+font-family: 'Roboto', sans-serif;
+}   
+
+.padd-top{
+    /* margin-top: 5rem; */
+    padding-top: 4rem;
+}
+.font-lrg{
+    font-size: 8rem;
+}
+.marbtom{
+    padding-bottom: 7rem;
+}
+#footer-logo-img{
+    height: 140x;
+    width: 210px;
+}
+.footer-social-icon{
+    font-size: 30px;
+    color: white;
+    transition: color .5s;
+}
+.footer-social-icon:hover{
+    font-size: 30.5px;
+    color: rgb(0, 0, 0);
+}
+.btn-green
+{
+    padding: 14px 22px;
+    background-color: rgb(25, 149, 14);
+    transition: all 1s;
+    font-size: 20px;
+}
+.btn-green:hover
+{
+    background-color: rgb(15, 180, 0);
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.226);
+    color: #fff;
+    width: 38rem;
+    min-width: 34rem;
+    padding: 40px 40px;
+    margin-bottom: 16rem;
+    margin-left: -5rem;
+}
+/* .bg-image-{
+    background-image: url('bgimg.jpg');
+    background-color: green;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: .04;
+} */
+
+.footer-address-icon{
+    font-size: 20px;
+    color: white;
+    /* margin: 8px 0px; */
+}
+.footer-address{
+    color: white;
+}
+@media screen and (max-width:992px){
+    .carousel-caption{
+      display: none;
+    }
+    .margin-top-btom{
+    margin-top: 4rem;
+}
+.head-con-color{
+    color: #17a2b8;
+    text-transform: uppercase;
+}
+.head-con-color-para{
+    color: #32369a;
+    font-weight: 900;
+    font-size: 50px;
+}
+.con-icon-add-pro{
+    font-size: 85px;
+    color: #33379a;
+}
+.padding-top-botm{
+padding: 45px 0px;
+}
+.padding-top-botm-to-row{
+padding: 20px 10px;
+}
+
+.margin-row-dir-to-cont-each{
+    margin: 15px 25.5px;
+    border: 2px solid #a59d9d;
+    border-radius: 14px;
+    transition: all 1s;
+}
+.margin-row-dir-to-cont-each:hover{
+    border: #fff;
+    box-shadow: 0px 1px 26px 1px #4a96dd;   
+}
+.margin-row-dir-to-cont-each:hover .con-icon-add-pro{
+    font-size: 85px;
+    color: #0006bd;
+}
+.contact_us_form{
+    margin: 0px 200px;
+}
+
+
+/* Form Css */
+.form-control{
+    padding: 14px 20px;
+}
+@media screen and (max-width:992px){
+    .contact_us_form{
+        margin: 0px 0px;
+    }
+}
+.btn-info{
+    color: white;
+    padding: 12px 12px;
+}
+.fa-chevron-right{
+    color: red;
+    background-color: #fff;
+    padding: 10px 13px;
+    border-radius: 3px;
+}
+.btn-info:hover .fa-chevron-right{
+border-radius: 50%;
+}
+}

@@ -1,0 +1,10 @@
+
+.mlauto{
+    margin-left: auto;
+}
+.carousel-item{
+    height: 300px;
+    min-height: 340vh;
+    background: no-repeat center center scroll;
+    background-size: cover;
+}

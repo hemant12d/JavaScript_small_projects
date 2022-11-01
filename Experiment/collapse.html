@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collapse Content</title>
+    <link rel="stylesheet" href="collapse.css">
+</head>
+
+<body>
+    <h1>This is for Collapse Tutorial</h1>
+    <div class="accordian">
+        <button class="accordian__button ">Expand Content</button>
+        <p class="accordian__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur vel maxime inventore eveniet doloremque omnis assumenda id cupiditate quos placeat.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur vel maxime inventore eveniet doloremque omnis assumenda id cupiditate quos placeat.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur vel maxime inventore eveniet doloremque omnis assumenda id cupiditate quos placeat.
+        </p>
+    </div>
+    <div class="accordian">
+        <button class="accordian__button ">Expand Content</button>
+        <p class="accordian__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur vel maxime inventore eveniet doloremque omnis assumenda id cupiditate quos placeat.
+        </p>
+    </div>
+    <div class="accordian">
+        <button class="accordian__button ">Expand Content</button>
+        <p class="accordian__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur 
+        </p>
+    </div>
+    <!-- <div class="accordian">
+        <button class="accordian__button ">Expand Content</button>
+        <p class="accordian__content">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Optio, consectetur modi totam excepturi cum eum dolor nostrum deleniti minima provident nisi quam aspernatur vel maxime inventore eveniet doloremque omnis assumenda id cupiditate quos placeat.
+        </p>
+    </div> -->
+    <script>
+        document.querySelectorAll('.accordian__button').forEach(element => {
+            element.addEventListener('click', ()=>{
+                // const accordianContent = element.nextSibling;
+element.classList.toggle('accordian__button__active');
+// if (element.classList.contains('accordian__button__active')) {
+//     // console.log("Class contain");
+//     element.nextSibling.style.maxHeight = accordianContent.scrollHeight + 'px';
+// }
+// else{
+//     // console.log("Not contain");
+//     accordianContent.style.maxHeight = 0;
+// }
+            })
+        });
+    </script>
+</body>
+</html>

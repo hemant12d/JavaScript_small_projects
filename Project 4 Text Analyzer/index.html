@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Analyzer</title>
+    <link rel="stylesheet" href="index.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,300&family=RocknRoll+One&display=swap');
+    </style>
+   
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo-content">
+            <h1>Text Analyzer</h1>
+        </div>
+    </nav>
+    <div id="alert">
+
+    </div>
+    <section class="text-content">
+        <div class="content m-auto">
+            <div class="title m-xy">
+                <h1>Paste your Text</h1>
+            </div>
+            <div class="text m-xy">
+                <textarea name="text" id="addText" class="textarea" cols="30" rows="5"></textarea>
+            </div>
+            <div class="btn m-xy">
+                <button id="addBtn" class="btnDesign">Submit</button>
+                <button id="resetBtn" class="btnDesign">Reset</button>
+            </div>
+        </div>
+        <div class="result m-auto">
+            <div class="displayresult m-xy">
+                <p class="words">Total Words in Text: <span id="totalWords"></span></p>
+                <p class="character">Total Characters in Text: <span id="totalChars"></span></p>
+                <p class="spaces">Total Spaces in Text: <span id="totalSpaces"></span></p>
+            </div>
+        </div>
+    </section>
+    <section class="tofooter">
+        <div class="footer">
+            Copyright &copy; : All Rights Reserved!
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

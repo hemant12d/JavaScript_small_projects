@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dummy Content</title>
+</head>
+<style>
+    .border{
+        border: 12px solid gray;
+        border-radius: 18px;
+        /* width: fit-content; */
+        padding: 35px 25px;
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 33px;
+        overflow: hidden;
+    }
+
+    .addclass {
+        height: fit-content;
+    }
+
+    .addNoteHold {
+        width: 80%;
+        margin: auto;
+        border: 2px solid blue;
+        padding: 65px 45px;
+    }
+
+    .d-f {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .d-f-2 {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .content {
+        padding: 12px 12px;
+        border: 2px solid red;
+        width: 90%;
+    }
+
+    .bordersection {
+        width: 40%;
+        border: 2px solid yellow;
+    }
+    .bordersection-1{
+        width: 100%;
+    }
+
+    .m-xy {
+        margin: 2rem 0rem;
+    }
+</style>
+
+<body>
+    <h1>This is just a dummy content</h1>
+    <div class="addNoteHold ">
+        <div class="border ">
+            <div class="content">
+                <div class="title">
+                    <h1>Title is here</h1>
+                </div>
+                <div class="main-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                </div>
+            </div>
+            <div class="bordersection">
+                <div class="deleteBtn m-xy">
+                    <button type="button" id="delBtn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+                <div class="readMoreBtn m-xy">
+                    <button id="rdBtn">ReadMore</button>
+                </div>
+            </div>
+        </div>
+        <div class="border">
+            <div class="content">
+                <div class="title">
+                    <h1>Title is here</h1>
+                </div>
+                <div class="main-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                </div>
+            </div>
+            <div class="bordersection">
+                <div class="deleteBtn m-xy">
+                    <button type="button" id="delBtn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+                <div class="readMoreBtn m-xy">
+                    <button id="rdBtn">ReadMore</button>
+                </div>
+            </div>
+        </div>
+        <div class="border">
+            <div class="content">
+                <div class="title">
+                    <h1>Title is here</h1>
+                </div>
+                <div class="main-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis quos exercitationem fugiat veritatis
+                    saepe excepturi, nostrum nulla aut soluta, aliquid quis sint inventore cum libero ipsam eveniet
+                    provident sunt mollitia.
+                </div>
+            </div>
+            <div class="bordersection">
+                <div class="deleteBtn m-xy">
+                    <button type="button" id="delBtn"><i class="fas fa-trash-alt"></i></button>
+                </div>
+                <div class="readMoreBtn m-xy">
+                    <button id="rdBtn">ReadMore</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        console.log("This java script is working fine!")
+        let bordr = document.getElementsByClassName('border');
+        Array.from(bordr).forEach(element => {
+            let controlBtn = element.getElementsByClassName('bordersection')[0].children[1].children[0];
+            controlBtn.addEventListener('click', () => {
+                console.log("You clicked on the button");
+                element.classList.toggle('addclass');
+                element.classList.toggle('d-f');
+                let btncon = element.getElementsByClassName('bordersection')[0];
+                btncon.classList.toggle('d-f-2');
+                btncon.classList.toggle('bordersection-1');
+
+                controlBtn.innerText = 'Show/Hide';
+                    console.log(btncon);
+                            });
+        });
+        let elem = document.getElementsByClassName('border');
+        console.log(elem[0].getElementsByClassName('bordersection')[0].children[1].children[0]);
+//        let elem =  document.getElementsByClassName('border');
+// console.log(elem[0].getElementsByClassName('bordersection')[0].children[1].children[0]);
+// console.log(elem[1]);
+let a = window.confirm("Are you sure! you want to delete this page !");
+if (a == true) {
+    console.log('You have accepted our agreement');
+    
+}
+else
+{
+    console.log('YOu disagree from the agreement');
+    
+}
+    </script>
+    <!-- <script src="index.js"></script> -->
+    <script src="https://kit.fontawesome.com/7f77965b4e.js" rossorigin="anonymous"></script>
+</body>
+
+</html>

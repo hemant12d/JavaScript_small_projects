@@ -1,0 +1,97 @@
+@media screen and (max-width:1375px){
+    #notesCollection{
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 0.27rem;
+    }
+}
+@media screen and (max-width:945px){
+    #notesCollection{
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 0.27rem;
+    }
+}
+@media screen and (max-width:770px){
+    .navbar{
+        flex-direction: column;
+        height: 5.5rem;
+    }
+    .greet{
+        font-size: 1.4rem;
+    }
+    .notearea #notetext{
+        width: 98%;
+    }
+    .noteall{
+        width: 95%;
+    }
+ 
+    #notesCollection{
+        grid-template-columns: repeat(1, auto);
+        grid-gap: 0.17rem;
+        }  
+        .eachNote{
+            margin-left: .4rem;
+        }
+        #titleHead{
+            font-size: 18px;
+        }
+        .footer{
+           
+            font-size: 1.2rem;
+        }
+    
+}
+@media screen and (max-width:450px){
+
+    .greet{
+        font-size: 1.2rem;
+        margin-left: .8rem;
+    }
+    .notearea #notetext{
+        width: 96%;
+        height: 140px;
+    }
+    .eachNote{
+        margin-left: .7rem;
+    }
+    .noteall{
+        width: 95%;
+        border-radius: 18px;
+        margin-left: .4rem;
+    }
+    .btnDesign{
+               padding: 6px 17px;
+               font-size: 12px;
+    }
+    #srchbar{
+        padding: 4.5px 5px;
+    }   
+    .footer{
+           
+        font-size: .8rem;
+    }
+ 
+}
+@media screen and (max-width:350px)
+{
+    .greet{
+        font-size: 1rem;
+        margin-left: .8rem;
+    }
+    .btnDesign{
+               padding: 6px 15px;
+               font-size: 11px;
+    }
+    #srchbar{
+        padding: 3.5px 3px;
+       
+    }
+    .eachNote{
+        border: 3px solid blue;
+        display: inline-block;
+        margin-left: .3rem;
+    }
+        #srchbar{
+           width: 155px;
+        }
+    }

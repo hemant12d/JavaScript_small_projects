@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fill Note</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="phone.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@600&display=swap');
+        </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <div class="logo-name">
+                <h1>FillNote</h1>
+            </div>
+        </div>
+        <div class="nav-search">
+            <div class="search-content">
+                <input type="Search" id="srchbar" placeholder="Type to search">
+                <button type="submit" id="srchBtn" class="btnDesign">Search</button>
+            </div>
+        </div>
+    </nav>
+    <div id="alert">
+
+    </div>
+    <section class="the-content">
+        <div class="notesection note-item" style=" margin: auto;">
+            <div class="greet">
+                <h1>Welcome to Your Personal Notes</h1>
+            </div>
+            <div class="noteall">
+                <div class="notegreet m-x f-d">
+                    <h1 id="titleHead">Add Note Title</h1>
+                </div>
+                <div class="notegreet m-x f-d">
+                    <input type="text" id="addTitle" class="notearea p-xy o-l" placeholder="Type Title">
+                </div>
+                <div class="notearea m-x m-y">
+                    <textarea name="txtarea" class="p-xy o-l" id="notetext" cols="30" rows="10"></textarea>
+                </div>
+                <div class="notebutton m-x m-y">
+                    <button id="addBtn" class=" btnDesign">Add Note</button>
+                </div>
+            </div>
+            <div class="addNotesGreet">
+                <div class="greet">
+                    <h1>Your Notes Collection</h1>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <div class="addednotes note-item" id="notesCollection">
+
+        </div>
+    </section>
+    <section class="tofooter">
+        <div class="footer">
+            <p>Copyright &copy; : All Rights Reserved!</p>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>

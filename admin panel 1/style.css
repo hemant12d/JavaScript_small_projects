@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* List of Impoted files by google */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.side-left{
+    color: rgba(185, 185, 185, 0.651);
+}
+
+.left-side .logoimage{
+    box-shadow: 0px 2px 10px 1px rgb(13, 20, 22);
+    border: 0px 0px 2px 0px;
+    border-color: blue;
+    color: #fff;
+    height: 46px;
+}
+
+.logo-brand img{
+    height: 37px;
+    width: 60px;
+}
+
+
+.searchbar #search{
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    font-size: 12px;
+    width: 295px;
+    transition: width .75s;
+}
+#search:focus{
+    width: 395px;
+}
+.profile-id a img{
+    height: 34px;
+    width: 41px;
+}
+.navigation{
+    background: linear-gradient(90deg, rgb(255 93 220 / 64%), #dd0202);
+    height: 46px;
+}
+.profile-id{
+    border-radius: 100%;
+    overflow: hidden;
+}
+.overview-bussiness{
+    color: #fff;
+}
+.graph-1 img, .graph-1, .graph-2 img, .graph-2{
+    width: 100%;
+}
+
+/* Font awesome icon design */
+ .fa-bars, .fa-envelope-o,
+.fa-bell-o,
+.fa-troph, .fa-search, .fa-trophy{
+    color: white;
+    font-size: 18px;
+}
+.fa-search{
+    color:#333;
+    margin-left: -25px;
+    font-size: 12px;
+    background-color: #fff;
+    padding: 10px 0px;
+}
+
+.fa-sort-amount-up-alt, .fa-wallet, .fa-artstation, .fa-users{
+    color: #fff;
+    font-size: 40px;
+}
+.order{
+    background: linear-gradient(90deg, #e43a15, #e65245);
+}
+.expenses{
+    background: linear-gradient(90deg, #5f2c82, #49a09d);
+}
+.revenue{
+    background: linear-gradient(90deg, #24c6dc, #514a9d);
+}
+.user{
+    background: linear-gradient(90deg, #3ca55c, #b5ac49);
+}
+
+
+/* left part design  */
+.dash-board:hover{
+    /* border: 2px solid blue; */
+    background: #333;
+}
+.dash-board-1 > a{
+text-decoration: none;
+color: rgba(185, 185, 185, 0.651);
+}
+.dash-board-1 > a:focus{
+color: rgba(12, 8, 8, 0.651);
+}
